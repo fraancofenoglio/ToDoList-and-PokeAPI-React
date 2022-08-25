@@ -43,6 +43,7 @@ body {
     background-color: green;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .borrarButton {
@@ -54,8 +55,9 @@ body {
     background-color: darkred;
     color: white;
     font-weight: 700;
-
+    cursor: pointer;
 }
+
 label {
     font-weight: 700;
 }
