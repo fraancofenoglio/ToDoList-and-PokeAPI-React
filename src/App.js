@@ -1,9 +1,12 @@
-import Lista from "./components/lista";
-
+import Lista from "./components/Lista";
 
 function App() {
   return (
-    <Lista></Lista>
+    <div className="container">
+
+      <Lista></Lista>
+      
+    </div>
   );
 }
 
