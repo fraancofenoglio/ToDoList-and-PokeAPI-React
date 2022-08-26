@@ -11,7 +11,7 @@ body {
     padding: 15px;
     margin: 15px;
     border-radius: 40px;
-    width: 45vw;
+    width: 80vw;
     min-height: 30vh;
     align-self: center;
 }
@@ -60,4 +60,10 @@ body {
 
 label {
     font-weight: 700;
+}
+
+@media only screen and (min-width: 700px) {
+    .container {
+        width: 45vw;
+    }
 }
