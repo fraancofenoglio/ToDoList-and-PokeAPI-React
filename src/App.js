@@ -1,12 +1,14 @@
-import Lista from "./components/Lista";
+import {BrowserRouter} from "react-router-dom";
+import Navbar from './components/Navbar';
+import MainRoutes from "./routes/MainRoutes";
 
 function App() {
   return (
-    <div className="container">
 
-      <Lista></Lista>
-      
-    </div>
+      <BrowserRouter>
+        <Navbar/>
+        <MainRoutes/>
+      </BrowserRouter>
   );
 }
 
