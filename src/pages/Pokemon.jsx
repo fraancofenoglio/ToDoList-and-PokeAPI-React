@@ -35,7 +35,7 @@ function Pokemon() {
         <h1 className="poke-titulo">Búsqueda Pokémon</h1>
 
         <form onSubmit={handleSubmit} action="">
-          <input autoFocus type="text" id="" onChange={ e => setValue(e.target.value)} />
+          <input autoFocus type="text" placeholder="Ej. Pikachu, o 25" onChange={ e => setValue(e.target.value)} />
           <button className="poke-boton" type="submit">Buscar</button>
         </form>
     </div>
